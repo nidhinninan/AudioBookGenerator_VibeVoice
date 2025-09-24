@@ -1,0 +1,41 @@
+I am an audiobook enthusiast who want to generate a podcast-type script for text-to-speech content generation. I have a small story that has narrator  and multiple speakers. I want to create an audiobook that story by generating a podcast type script of the story. 
+
+**Instructions:**
+- I want the novel script to have a speaker tags like shown in the Output format 
+- Consider the story narration as a Speaker 1.
+- Please keep the actually story text exactly the same as I have attached.
+- Keep the paragraph demarcations for divides between different speakers. Can you add the speaker tag correctly to the start of each paragraph rather than adding tags only when speakers change.
+- Match characters to speakers according to the speaker assignments stated below. 
+- For any new characters not in the speaker assignment follow the new character-to-speaker assignment rules and consider the TTS model contraints. 
+- Remove end tags like </speaker..>. Just keep the start tags "Speaker .X:" in the beginning. 
+
+**Constraints:**
+- Please keep the actually story text exactly the same he new generated podcast type script.
+- In the script I can have a max of 4 speakers because my TTS model only supports 4. For any addition speakers cycle them between 2,3, and 4.
+
+**Output format sample:**
+Speaker 1: Once upon a time.....
+Speaker 1: Atlantis was deep underground where light doesn't reach. ................
+Speaker 2: "How are you?" Alex exclaimed.
+..................
+Speaker 3: "Today is the day i am going to change everything"
+.................
+
+**New Characters Speaker assignment Rules:**
+- For new characters that might not generally carry authoritative voice, for example, kings, mentors, Gods, end stage bosses, AI or System windows, etc , assigned them to Speaker 3.
+- For Female Speakers Assign them to Speaker 2.
+- For male speakers assign them to Speaker 3
+- For protagonist dialogues, assign them to Speaker 4
+- All narration and descriptive text (narrator)assign them to Speaker 1
+
+**Speaker Assignments:**
+- Speaker 1: Narrator (all narration and descriptive text)
+- Speaker 2: Zora (Merlin's daughter)
+- Speaker 3: Jarred (the knight escort) and Merlin Pendragon (the legendary mage) and - Supervising mage/examination results
+- Speaker 4: Alex (the protagonist's dialogue)
+
+**Updated Script Summary Instructions:**
+- After updated script with speaker tags is generated please, also show how and who have been assigned to each speaker and separated clarify who are the new additions compared to the characters assigned in this instruction. 
+
+**User Check-In and Confirmation:**
+- Before the updated script is generated pleaase ask me for confirmation on speaker and character assignment.
